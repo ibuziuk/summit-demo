@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  spring-boot-service:
+    build: ./boot
+    ports:
+      - 8081:8081
