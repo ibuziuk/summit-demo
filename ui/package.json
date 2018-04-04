@@ -1,0 +1,17 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "UI microservice for Red Hat summit 2018",
+  "main": "server.js",
+  "dependencies": {
+    "connect": "^3.6.6",
+    "serve-static": "^1.13.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
