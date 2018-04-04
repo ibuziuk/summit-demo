@@ -5,3 +5,12 @@ services:
     build: ./boot
     ports:
       - 8081:8081
+
+  ui:
+    build: ./ui
+    volumes:
+      - ./ui:/usr/src/app
+    ports:
+      - 3000:3000
+    depends_on:
+      - spring-boot-service
